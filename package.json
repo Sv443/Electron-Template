@@ -1,0 +1,47 @@
+{
+  "name": "@sv443/electron-template",
+  "version": "0.1.0",
+  "main": "dist-electron/electron/main/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run build-prepare && electron-builder",
+    "build-win": "npm run build-prepare && electron-builder -w",
+    "build-mac": "npm run build-prepare && electron-builder -m",
+    "build-linux": "npm run build-prepare && electron-builder -l",
+    "build-prepare": "tsc && vite build",
+    "lint": "eslint . && tsc --noEmit",
+    "format": "eslint --fix ."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@import-meta-env/unplugin": "^0.2.0",
+    "@types/node": "^18.8.5",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "dotenv": "^16.0.3",
+    "electron": "^22.2.0",
+    "electron-builder": "^23.6.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.10",
+    "vite-electron-plugin": "^0.7.4"
+  },
+  "debug": {
+    "env": {
+      "VITE_DEV_SERVER_URL": "http://127.0.0.1:3010"
+    }
+  }
+}
