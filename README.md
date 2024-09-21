@@ -15,13 +15,13 @@ This is a blank slate and other libraries like React can easily be retrofitted.
 <br>
 
 ## Commands
-- `pnpm run dev` - Start the development server
-- `pnpm run build` - Build the app for all platforms
-- `pnpm run build-win` - Build the app for Windows
-- `pnpm run build-mac` - Build the app for MacOS
-- `pnpm run build-linux` - Build the app for Linux
+- `pnpm run dev` - Starts the app in dev mode and refreshes it when a source file has changed
+- `pnpm run build` - Builds the app for all platforms
+- `pnpm run build-win` - Builds the app for Windows
+- `pnpm run build-mac` - Builds the app for MacOS
+- `pnpm run build-linux` - Builds the app for Linux
 - `pnpm run lint` - Lints the code using ESLint, then runs TSC to check for syntax and type errors
-- `pnpm run format` - Formats the code using ESLint
+- `pnpm run format` - Formats the code using ESLint to fix common problems
 
 <br>
 
