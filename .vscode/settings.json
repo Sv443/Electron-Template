@@ -6,5 +6,11 @@
   // always prefer the @-paths from tsconfig.json
   "typescript.preferences.importModuleSpecifier": "non-relative",
   // use NodeNext's .js for all imports
+  "javascript.preferences.importModuleSpecifierEnding": "js",
   "typescript.preferences.importModuleSpecifierEnding": "js",
+  // associate .env files with the same format
+  "files.associations": {
+    "*.env": "dotenv",
+    "*.env.template": "dotenv",
+  },
 }
