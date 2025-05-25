@@ -25,18 +25,18 @@
     ]
   },
   "devDependencies": {
-    "@import-meta-env/unplugin": "^0.2.0",
-    "@types/node": "^18.8.5",
-    "@typescript-eslint/eslint-plugin": "^5.40.0",
-    "@typescript-eslint/parser": "^5.40.0",
-    "dotenv": "^16.0.3",
-    "electron": "^22.2.0",
+    "@import-meta-env/unplugin": "^0.2.1",
+    "@types/node": "^18.19.103",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "dotenv": "^16.5.0",
+    "electron": "^22.3.27",
     "electron-builder": "^23.6.0",
-    "eslint": "^8.25.0",
-    "eslint-config-prettier": "^8.5.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "typescript": "^4.8.4",
-    "vite": "^3.2.10",
+    "typescript": "^4.9.5",
+    "vite": "^3.2.11",
     "vite-electron-plugin": "^0.7.4"
   },
   "debug": {
